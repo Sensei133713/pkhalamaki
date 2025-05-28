@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palvelut | PKH Alamäki</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <body class="font-sans bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <!-- Logo-kuva -->
+                    <img src="images/IMG_0225.png" alt="Logo" class="h-10 w-auto" />
+
+                    <!-- Otsikko -->
+                    <h1 class="text-2xl font-bold text-gray-800">
+                        <span class="text-orange-500">Pienkonehuolto</span> Alamäki Oy
+                    </h1>
+                </div>
+
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#services" class="text-gray-700 hover:text-primary font-medium transition">Palvelut</a></li>
+                        <li><a href="palvelut.html" class="text-gray-700 hover:text-primary font-medium transition">Tietoa meistä</a></li>
+                        <li><a href="#contact" class="text-gray-700 hover:text-primary font-medium transition">Yhteystiedot</a></li>
+                    </ul>
+                </nav>
+
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary/10 to-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Pienkonehuollon palvelumme</h1>
+            <p class="text-lg text-gray-600">Luotettavaa ja nopeaa huoltoa – moottorisahoista mönkijöihin.</p>
+        </div>
+    </section>
+
+    <!-- Palvelut Grid -->
+    <section class="py-16 px-4">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Palvelu 1 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Kausihuollot</h3>
+                <p class="text-gray-600">Kaikki tarvittavat huoltotoimenpiteet ennen ja jälkeen kauden, mm. öljynvaihdot ja suodattimien tarkastus.</p>
+            </div>
+
+            <!-- Palvelu 2 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-wrench"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Moottorikorjaukset</h3>
+                <p class="text-gray-600">Korjaamme pienkoneiden moottorit nopeasti ja ammattitaidolla – mopot, sahat, leikkurit ja paljon muuta.</p>
+            </div>
+
+            <!-- Palvelu 3 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Diagnostiikka</h3>
+                <p class="text-gray-600">Selvitämme nopeasti vian syyn nykyaikaisilla diagnostiikkalaitteilla ja annamme selkeän kustannusarvion.</p>
+            </div>
+
+            <!-- Palvelu 4 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-snowflake"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Talvisäilytys & huolto</h3>
+                <p class="text-gray-600">Tarjoamme säilytyspalvelua laitteillesi talvikaudeksi ja huollamme ne valmiiksi kevääseen.</p>
+            </div>
+
+            <!-- Palvelu 5 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-plug"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Sähköstartit ja akut</h3>
+                <p class="text-gray-600">Tarkastamme, vaihdamme ja huollamme pienkoneiden käynnistyslaitteet ja akut.</p>
+            </div>
+
+            <!-- Palvelu 6 -->
+            <div class="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition">
+                <div class="text-primary text-3xl mb-4">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="text-xl font-semibold mb-2">Takuu- ja varaosapalvelu</h3>
+                <p class="text-gray-600">Käytämme vain alkuperäisiä varaosia ja tarjoamme täyden takuun työlle ja osille.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Takaisin etusivulle -->
+    <div class="text-center py-12">
+        <a href="index.html" class="inline-block px-6 py-3 bg-primary text-white font-semibold rounded-lg shadow hover:bg-primary/90 transition">
+            Takaisin etusivulle
+        </a>
+    </div>
+
+</body>
+</html>

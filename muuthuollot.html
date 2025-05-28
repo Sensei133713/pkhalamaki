@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erikoiskoneiden huolto | Pienkonehuolto Alamäki Oy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Ylätunniste -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <!-- Logo-kuva -->
+                    <img src="images/IMG_0225.png" alt="Logo" class="h-10 w-auto" />
+
+                    <!-- Otsikko -->
+                    <h1 class="text-2xl font-bold text-gray-800">
+                        <span class="text-orange-500">Pienkonehuolto</span> Alamäki Oy
+                    </h1>
+                </div>
+
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li><a href="#services" class="text-gray-700 hover:text-primary font-medium transition">Palvelut</a></li>
+                        <li><a href="#about" class="text-gray-700 hover:text-primary font-medium transition">Tietoa meistä</a></li>
+                        <li><a href="#contact" class="text-gray-700 hover:text-primary font-medium transition">Yhteystiedot</a></li>
+                    </ul>
+                </nav>
+
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+  <!-- Sivun sisältö -->
+  <main class="max-w-4xl mx-auto px-6 py-12 bg-white shadow mt-8 rounded-xl">
+
+    <!-- Otsikko -->
+    <h2 class="text-3xl font-bold text-center mb-6">
+      Monipuolista huoltoa kaikenlaisille koneille ja laitteille
+    </h2>
+
+    <!-- Johdanto -->
+    <p class="text-lg text-center mb-8">
+      Pienkonehuolto Alamäki Oy tarjoaa huoltoa ja korjausta myös sellaisille koneille ja laitteille, jotka eivät kuulu perinteisiin pienkoneisiin. Olipa kyseessä erikoislaite, isompi työväline tai harvinaisempi kone, autamme mielellämme.
+    </p>
+
+    <!-- Esimerkit -->
+    <section class="mb-10">
+      <h3 class="text-2xl font-semibold mb-4">✅ Esimerkkejä huolletuista laitteista</h3>
+      <ul class="list-disc list-inside space-y-1 text-lg">
+        <li>Generaattorit</li>
+        <li>Betonihiertimet</li>
+        <li>Puhaltimet ja imurit</li>
+        <li>Rakennustyökalut (esim. piikkauskoneet, poravasarat)</li>
+        <li>Pienkuormaajat ja minikaivurit</li>
+        <li>Harvinaiset tai erikoisvalmisteiset koneet</li>
+      </ul>
+    </section>
+
+    <!-- Huollon eteneminen -->
+    <section class="mb-10">
+      <h3 class="text-2xl font-semibold mb-4">🔍 Huollon eteneminen</h3>
+      <ol class="list-decimal list-inside space-y-2 text-lg">
+        <li><strong>Yhteydenotto –</strong> Kerro meille, mitä laitetta tarvitset huollettavaksi.</li>
+        <li><strong>Arviointi –</strong> Tutkimme laitteen ja arvioimme huollon tarpeet.</li>
+        <li><strong>Hinta-arvio –</strong> Annamme tarjouksen ennen työn aloittamista.</li>
+      </ol>
+    </section>
+
+    <!-- Tärkeää tietää -->
+    <section class="mb-10">
+      <h3 class="text-2xl font-semibold mb-4">💬 Tärkeää tietää</h3>
+      <p class="text-lg">
+        Koska monet näistä koneista ovat yksilöllisiä, niiden huoltotarpeet ja varaosien saatavuus vaihtelevat. Siksi hinta-arvio voidaan antaa vasta, kun olemme tutustuneet laitteeseen. Voit tuoda laitteen meille tai lähettää kuvia ja tietoja etukäteen yhteydenottolomakkeemme kautta.
+      </p>
+    </section>
+
+<!-- Contact Section -->
+    <div id="contact" class="max-w-4xl mx-auto mt-20 bg-white rounded-xl shadow-xl overflow-hidden p-8">
+      <h2 class="text-3xl font-bold text-gray-900 mb-6">Ota yhteyttä</h2>
+      <p class="text-gray-600 mb-8">Haluatko lisätietoja palveluistamme? Lähetä viesti tai soita meille!</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">Yhteystiedot</h3>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <i class="fas fa-phone-alt text-blue-600 mt-1 mr-3"></i>
+              <div>
+                <p class="text-gray-600">Puhelin</p>
+                <p class="font-medium text-gray-900">+358 12 345 6789</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <i class="fas fa-envelope text-blue-600 mt-1 mr-3"></i>
+              <div>
+                <p class="text-gray-600">Sähköposti</p>
+                <p class="font-medium text-gray-900">info@huolto.fi</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-3"></i>
+              <div>
+                <p class="text-gray-600">Osoite</p>
+                <p class="font-medium text-gray-900">Torpinkatu 7, 95420 Tornio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-gray-800">Lähetä viesti</h3>
+          <form class="space-y-4">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700">Nimi</label>
+              <input type="text" id="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2 border">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700">Sähköposti</label>
+              <input type="email" id="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2 border">
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700">Viesti</label>
+              <textarea id="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2 border"></textarea>
+            </div>
+            <button type="submit" class="btn-primary text-white px-6 py-3 rounded-full font-medium w-full">
+              Lähetä viesti
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Alatunniste -->
+  <footer class="bg-gray-200 mt-12 py-6 text-center text-sm text-gray-600">
+    &copy; 2025 Pienkonehuolto Alamäki Oy
+  </footer>
+
+</body>
+</html>
